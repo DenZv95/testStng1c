@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b7a074f-b445-4d47-910e-b55ffd906bbb">
+  <producedTypes>
+    <objectType typeId="bd71b94a-7945-462a-861b-4504712164d1" valueTypeId="e1b6dad5-e6da-4a6f-b0f0-4d2ed8305092"/>
+    <refType typeId="aed3db3d-c8a9-4292-b081-fdfbea8c1f6a" valueTypeId="f0622c74-b3be-454a-b115-63cd69031455"/>
+    <selectionType typeId="3195a030-73b5-49d8-bcc1-2e12701f82c9" valueTypeId="d7abfc1c-94a7-4ca3-aeb4-46be625c60ae"/>
+    <listType typeId="692b0f87-1832-4824-b2d4-c57a202467cc" valueTypeId="a6ccf4f7-acc7-431d-be19-4db532e9a556"/>
+    <managerType typeId="de547c7a-afab-4aca-bfff-dd501b07340b" valueTypeId="cefb0373-e305-4ec7-a5cb-bb6371343104"/>
+  </producedTypes>
+  <name>Расш1_Автотранспорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш1 автотранспорт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_Автотранспорт.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Расш1_Автотранспорт.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

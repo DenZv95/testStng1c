@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b7a074f-b445-4d47-910e-b55ffd906bbb">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b7a074f-b445-4d47-910e-b55ffd906bbb">
   <producedTypes>
     <objectType typeId="bd71b94a-7945-462a-861b-4504712164d1" valueTypeId="e1b6dad5-e6da-4a6f-b0f0-4d2ed8305092"/>
     <refType typeId="aed3db3d-c8a9-4292-b081-fdfbea8c1f6a" valueTypeId="f0622c74-b3be-454a-b115-63cd69031455"/>
@@ -30,4 +30,34 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Расш1_Автотранспорт.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="50f95f65-3f45-410b-8254-6c940bbff64c">
+    <name>ГосНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гос номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d3dfe401-5bd4-4334-9fe9-d777a1692758">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
